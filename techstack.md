@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 mollypi/jest is built on the following main stack:
+
 - [CircleCI](https://circleci.com/) – Continuous Integration
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -33,11 +34,13 @@ mollypi/jest is built on the following main stack:
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 mollypi/jest is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -69,14 +72,15 @@ mollypi/jest is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [mollypi/jest](https://github.com/mollypi/jest)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|147<br/>Tools used|11/15/23 <br/>Report generated|
+|148<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -393,9 +397,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (112)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (113)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (112)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (113)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -444,6 +448,7 @@ Full tech stack [here](/techstack.md)
 |[babel-preset-jest](https://www.npmjs.com/babel-preset-jest)|v0.0.0|07/17/22|Simen Bekkhus |MIT|N/A|
 |[benchmark](https://www.npmjs.com/benchmark)|v2.1.4|01/20/19|Mark Pedrotti |MIT|N/A|
 |[camelcase](https://www.npmjs.com/camelcase)|v5.3.1|05/16/21|volkan |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v2.4.2|05/02/20|Andrew Leedham |MIT|N/A|
 |[chokidar](https://www.npmjs.com/chokidar)|v3.5.3|11/24/19|Simen Bekkhus |MIT|N/A|
 |[co](https://www.npmjs.com/co)|v4.6.0|06/07/17|Dmitrii Abramov |MIT|N/A|
 |[convert-source-map](https://www.npmjs.com/convert-source-map)|v1.8.0|07/17/22|Simen Bekkhus |MIT|N/A|
@@ -515,4 +520,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
