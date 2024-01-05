@@ -1,11 +1,12 @@
 repo_name: mollypi/jest
 report_id: c56026d19419307186470091f9260af9
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T05:35:19+00:00'
+timestamp: '2024-01-05T08:42:35+00:00'
 requested_by: phawxby
 provider: github
 branch: main
-detected_tools_count: 147
+detected_tools_count: 148
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/mollypi/jest
   detection_source: Repo Metadata
 - name: Handlebars.js
   description: Minimal Templating on Steroids
@@ -24,6 +26,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/mollypi/jest
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mollypi/jest
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -44,6 +48,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/mollypi/jest
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -55,7 +60,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
-  detection_source: packages/test-utils/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/package.json
+  detection_source: package.json
   last_updated_by: jeffmo
   last_updated_on: 2014-05-14 16:42:01.000000000 Z
 - name: Angular
@@ -68,7 +74,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2021-05-18 07:19:15.000000000 Z
@@ -81,7 +87,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: packages/test-utils/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/package.json
+  detection_source: package.json
   last_updated_by: jeffmo
   last_updated_on: 2014-05-14 16:42:01.000000000 Z
 - name: React
@@ -94,8 +101,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: e2e/babel-plugin-jest-hoist/yarn.lock
-  detection_source: website/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/babel-plugin-jest-hoist/yarn.lock
+  detection_source: e2e/babel-plugin-jest-hoist/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
 - name: React Native
@@ -108,7 +115,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Mobile Development
   image_url: https://img.stackshare.io/service/2699/KoK6gHzp.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/react-native/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-20 16:26:41.000000000 Z
@@ -121,7 +128,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/1796/984368.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: ArtemRudenko
   last_updated_on: 2019-09-06 09:25:26.000000000 Z
@@ -135,8 +142,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: examples/jquery/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
 - name: GraphQL
@@ -147,6 +154,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Query Languages
   image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/mollypi/jest/blob/main/website/package.json
   detection_source: website/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-03-01 13:06:48.000000000 Z
@@ -158,7 +166,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source: examples/mongodb/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/examples/mongodb/__tests__/db.test.js
+  detection_source: examples/mongodb/__tests__/db.test.js
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-02-21 11:58:26.000000000 Z
 - name: Babel
@@ -171,8 +180,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
-  detection_source: website/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
+  detection_source: babel.config.js
   last_updated_by: Tim Seckinger
   last_updated_on: 2020-11-14 18:16:44.000000000 Z
 - name: Chai
@@ -185,7 +194,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: e2e/chai-assertion-library-errors/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/chai-assertion-library-errors/yarn.lock
   detection_source: e2e/chai-assertion-library-errors/package.json
   last_updated_by: Ruwan Pradeep Geeganage
   last_updated_on: 2019-05-17 16:41:27.000000000 Z
@@ -197,6 +206,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/mollypi/jest/blob/main/.circleci/config.yml
   detection_source: ".circleci/config.yml"
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-02-05 15:22:42.000000000 Z
@@ -208,6 +218,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/mollypi/jest/blob/main/.codecov.yml
   detection_source: ".codecov.yml"
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-02-15 14:46:30.000000000 Z
@@ -220,6 +231,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/mollypi/jest/blob/main/package.json
   detection_source: package.json
   last_updated_by: jeffmo
   last_updated_on: 2014-05-14 16:42:01.000000000 Z
@@ -233,7 +245,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/enzyme/package.json
   last_updated_by: Michał Pierzchała
   last_updated_on: 2018-04-30 09:00:08.000000000 Z
@@ -245,6 +257,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mollypi/jest
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -254,7 +267,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/test.yml"
+  detection_source_url: https://github.com/mollypi/jest/blob/main/.github/workflows/close-stale.yml
+  detection_source: ".github/workflows/close-stale.yml"
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-04-11 05:37:37.000000000 Z
 - name: Jest
@@ -267,8 +281,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-config/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: examples/angular/package.json
   last_updated_by: ArtemRudenko
   last_updated_on: 2019-09-06 09:25:26.000000000 Z
 - name: NuGet
@@ -279,7 +293,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
-  detection_source: packages/test-utils/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/package.json
+  detection_source: package.json
   last_updated_by: jeffmo
   last_updated_on: 2014-05-14 16:42:01.000000000 Z
 - name: Prettier
@@ -292,8 +307,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-snapshot/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-13 08:20:21.000000000 Z
 - name: Visual Studio Code
@@ -305,6 +320,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Text Editor
   image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/mollypi/jest/blob/main/.vscode/tasks.json
   detection_source: ".vscode/tasks.json"
   last_updated_by: Orta
   last_updated_on: 2018-03-05 00:01:44.000000000 Z
@@ -316,7 +332,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/benchmarks/test-file-overhead/yarn.lock
+  detection_source: benchmarks/test-file-overhead/yarn.lock
   last_updated_by: Tim Seckinger
   last_updated_on: 2021-02-11 08:20:10.000000000 Z
 - name: jsdom
@@ -330,7 +347,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/7054/preview.jpeg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-environment-jsdom/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 21:55:25.000000000 Z
@@ -342,6 +359,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/mollypi/jest/blob/main/website/package.json
   detection_source: website/package.json
   last_updated_by: jeffmo
   last_updated_on: 2014-05-14 16:42:01.000000000 Z
@@ -354,6 +372,7 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/mollypi/jest/blob/main/netlify.toml
   detection_source: netlify.toml
   last_updated_by: Simen Bekkhus
   last_updated_on: 2021-12-31 12:47:53.000000000 Z
@@ -368,8 +387,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: yarn.lock
-  detection_source: packages/pretty-format/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/expect-utils/package.json
   last_updated_by: Matt Wade
   last_updated_on: 2022-05-02 06:34:33.000000000 Z
 - name: Lerna
@@ -382,7 +401,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-04-25 11:02:30.000000000 Z
@@ -395,7 +414,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/manual-mocks/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-08-07 21:55:04.000000000 Z
@@ -408,6 +427,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/mollypi/jest
   detection_source: Repo Metadata
 - name: chalk
   description: terminal colors
@@ -415,7 +435,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
-  detection_source: packages/jest-watcher/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/package.json
+  detection_source: package.json
   last_updated_by: Andrew Leedham
   last_updated_on: 2020-05-02 11:47:59.000000000 Z
 - name: prolog
@@ -425,6 +446,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10124/no-img-open-source.png
+  detection_source_url: https://github.com/mollypi/jest
   detection_source: Repo Metadata
 - name: "@angular/common"
   description: Angular - commonly needed directives and services
@@ -436,7 +458,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2021-05-18 07:19:15.000000000 Z
@@ -450,7 +472,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2021-05-18 07:19:15.000000000 Z
@@ -464,7 +486,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2021-05-18 07:19:15.000000000 Z
@@ -478,7 +500,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2021-05-18 07:19:15.000000000 Z
@@ -492,7 +514,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2021-05-18 07:19:15.000000000 Z
@@ -506,7 +528,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18114/image.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: packages/jest-message-util/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2021-02-03 10:22:53.000000000 Z
@@ -520,8 +542,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
-  detection_source: website/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
+  detection_source: e2e/async-regenerator/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-04-12 16:42:59.000000000 Z
 - name: "@babel/generator"
@@ -534,7 +556,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17361/default_e9c4b89784d4fe5d59f93b4a54dd8910ea23e5de.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: packages/jest-snapshot/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-12 08:51:58.000000000 Z
@@ -548,7 +570,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16147/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
@@ -562,7 +584,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16321/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: e2e/babel-plugin-jest-hoist/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/babel-plugin-jest-hoist/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -576,7 +598,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17209/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: e2e/async-regenerator/package.json
   last_updated_by: Nimalan
   last_updated_on: 2020-11-15 19:36:47.000000000 Z
@@ -590,7 +612,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: e2e/async-regenerator/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2021-05-28 12:14:38.000000000 Z
@@ -604,7 +626,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16039/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: e2e/async-regenerator/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-04-12 16:42:59.000000000 Z
@@ -618,8 +640,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: e2e/babel-plugin-jest-hoist/yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/babel-plugin-jest-hoist/yarn.lock
+  detection_source: e2e/babel-plugin-jest-hoist/package.json
   last_updated_by: Nimalan
   last_updated_on: 2020-11-15 19:36:47.000000000 Z
 - name: "@babel/preset-flow"
@@ -632,8 +654,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16270/default_8b65a873fd3277d73483d6846fa38192391abf23.png
-  detection_source_url: e2e/babel-plugin-jest-hoist/yarn.lock
-  detection_source: packages/jest-snapshot/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/babel-plugin-jest-hoist/yarn.lock
+  detection_source: e2e/babel-plugin-jest-hoist/package.json
   last_updated_by: Tim Seckinger
   last_updated_on: 2019-01-16 22:02:28.000000000 Z
 - name: "@babel/preset-react"
@@ -646,8 +668,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: e2e/transform/multiple-transformers/yarn.lock
-  detection_source: packages/jest-snapshot/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/transform/multiple-transformers/yarn.lock
+  detection_source: e2e/transform/multiple-transformers/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
 - name: "@babel/preset-typescript"
@@ -660,8 +682,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: e2e/babel-plugin-jest-hoist/yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/babel-plugin-jest-hoist/yarn.lock
+  detection_source: e2e/babel-plugin-jest-hoist/package.json
   last_updated_by: Tim Seckinger
   last_updated_on: 2019-01-16 22:02:28.000000000 Z
 - name: "@babel/register"
@@ -674,8 +696,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16014/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-circus/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-12 08:51:58.000000000 Z
 - name: "@babel/template"
@@ -688,7 +710,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18110/image.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: packages/babel-plugin-jest-hoist/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-12 08:51:58.000000000 Z
@@ -702,7 +724,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17114/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: packages/jest-snapshot/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
@@ -724,8 +746,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16786/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
-  detection_source: packages/jest-snapshot/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
+  detection_source: packages/babel-plugin-jest-hoist/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-12 08:51:58.000000000 Z
 - name: "@testing-library/react"
@@ -739,7 +761,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/react-testing-library/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
@@ -753,8 +775,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18415/default_867ef7396016341fd213fa568d6de11cc98fefff.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-transform/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
 - name: "@types/glob"
@@ -767,8 +789,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16391/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-runtime/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/jest-config/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
 - name: "@types/jest"
@@ -781,8 +803,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: examples/angular/package.json
   last_updated_by: Tom Mrazauskas
   last_updated_on: 2022-07-13 11:33:57.000000000 Z
 - name: "@types/node"
@@ -795,8 +817,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: e2e/global-setup/yarn.lock
-  detection_source: packages/test-utils/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/global-setup/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
 - name: "@types/prettier"
@@ -809,8 +831,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16943/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-snapshot/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/babel-plugin-jest-hoist/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-12 08:51:58.000000000 Z
 - name: "@types/react"
@@ -823,8 +845,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: yarn.lock
-  detection_source: website/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/pretty-format/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
 - name: "@types/react-test-renderer"
@@ -837,7 +859,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16593/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/pretty-format/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
@@ -851,7 +873,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16613/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-core/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
@@ -865,8 +887,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: yarn.lock
-  detection_source: packages/test-utils/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/jest-snapshot/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
 - name: "@types/source-map-support"
@@ -879,7 +901,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18129/image.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-runner/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
@@ -893,8 +915,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: e2e/global-setup/yarn.lock
-  detection_source: packages/jest-validate/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/global-setup/yarn.lock
+  detection_source: packages/jest-cli/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
 - name: "@typescript-eslint/eslint-plugin"
@@ -907,7 +929,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -921,7 +943,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -935,8 +957,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17579/default_56bd3e923a141d34abaa4571e114397607a895b2.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-watcher/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/jest-core/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2019-11-10 10:53:25.000000000 Z
 - name: ansi-regex
@@ -949,8 +971,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17917/default_72dbba22ca96f25f78f55f8ea5393222efca5494.png
-  detection_source_url: yarn.lock
-  detection_source: packages/test-utils/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Tom Mrazauskas
   last_updated_on: 2022-07-10 08:29:31.000000000 Z
 - name: ansi-styles
@@ -963,8 +985,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17247/default_548b30201f78497e75a25eec5123ef18df71e69d.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
-  detection_source: packages/test-utils/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
+  detection_source: package.json
   last_updated_by: Tom Mrazauskas
   last_updated_on: 2022-07-10 08:29:31.000000000 Z
 - name: anymatch
@@ -977,7 +999,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18287/default_2b4f164959c4edb71332bbb8bb8be1f545c646f8.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-haste-map/package.json
   last_updated_by: Daniel Tschinder
   last_updated_on: 2021-04-12 22:35:11.000000000 Z
@@ -991,8 +1013,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-config/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: examples/angular/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
 - name: babel-plugin-istanbul
@@ -1005,8 +1027,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16032/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: e2e/coverage-transform-instrumented/yarn.lock
-  detection_source: packages/jest-transform/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/coverage-transform-instrumented/yarn.lock
+  detection_source: e2e/coverage-transform-instrumented/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2019-12-20 22:46:05.000000000 Z
 - name: babel-plugin-tester
@@ -1019,7 +1041,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18086/image.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/babel-plugin-jest-hoist/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-12 08:51:58.000000000 Z
@@ -1033,7 +1055,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18514/default_dca3458d5cc39fb26fb800bd61b6973bfcf59707.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/babel-jest/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
@@ -1048,7 +1070,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16241/default_cbc604730ab04341982d806fe402cd0706cc8bf4.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/diff-sequences/package.json
   last_updated_by: Mark Pedrotti
   last_updated_on: 2019-01-20 20:27:31.000000000 Z
@@ -1063,10 +1085,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16559/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
-  detection_source_url: e2e/coverage-transform-instrumented/yarn.lock
-  detection_source: packages/jest-validate/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/coverage-transform-instrumented/yarn.lock
+  detection_source: package.json
   last_updated_by: volkan
   last_updated_on: 2021-05-16 07:01:33.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
+  detection_source: package.json
+  last_updated_by: Andrew Leedham
+  last_updated_on: 2020-05-02 11:47:59.000000000 Z
 - name: chokidar
   description: A neat wrapper around node.js fs.watch / fs.watchFile / fsevents
   package_url: https://www.npmjs.com/chokidar
@@ -1077,7 +1113,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2019-11-24 14:20:57.000000000 Z
@@ -1091,8 +1127,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-jasmine2/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/jest-circus/package.json
   last_updated_by: Dmitrii Abramov
   last_updated_on: 2017-06-07 22:43:02.000000000 Z
 - name: convert-source-map
@@ -1106,7 +1142,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17172/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: packages/jest-transform/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
@@ -1120,7 +1156,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
@@ -1134,7 +1170,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2018-09-19 12:00:24.000000000 Z
@@ -1148,8 +1184,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17593/default_98adc81594c50d81f495d8c0ddd357e31c4f0a3e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-transform/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-12 08:51:58.000000000 Z
 - name: deepmerge
@@ -1162,7 +1198,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-config/package.json
   last_updated_by: Gareth Jones
   last_updated_on: 2020-02-28 08:11:14.000000000 Z
@@ -1176,7 +1212,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/diff-sequences/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-11-14 13:00:09.000000000 Z
@@ -1190,7 +1226,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15959/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/enzyme/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
@@ -1204,7 +1240,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -1218,7 +1254,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -1232,7 +1268,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17716/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -1246,7 +1282,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -1260,7 +1296,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -1274,7 +1310,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16770/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -1288,7 +1324,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -1302,8 +1338,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-repl/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-12-04 17:15:39.000000000 Z
 - name: expect
@@ -1316,8 +1352,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16110/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
-  detection_source_url: yarn.lock
-  detection_source: packages/pretty-format/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: examples/expect-extend/package.json
   last_updated_by: Tom Mrazauskas
   last_updated_on: 2022-02-12 06:44:04.000000000 Z
 - name: get-stream
@@ -1330,7 +1366,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18041/image.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-worker/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-08-23 01:24:45.000000000 Z
@@ -1344,8 +1380,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: e2e/coverage-transform-instrumented/yarn.lock
-  detection_source: packages/jest-runtime/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/coverage-transform-instrumented/yarn.lock
+  detection_source: package.json
   last_updated_by: Dmitry Semigradsky
   last_updated_on: 2022-05-06 11:52:07.000000000 Z
 - name: globby
@@ -1358,8 +1394,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
-  detection_source: website/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Dmitry Semigradsky
   last_updated_on: 2022-05-06 11:52:07.000000000 Z
 - name: graceful-fs
@@ -1372,8 +1408,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16375/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
-  detection_source_url: e2e/global-setup/yarn.lock
-  detection_source: packages/jest-util/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/global-setup/yarn.lock
+  detection_source: package.json
   last_updated_by: Mark Molinaro
   last_updated_on: 2022-01-06 07:52:11.000000000 Z
 - name: graphql-request
@@ -1386,7 +1422,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18362/default_c13193d39b06aca7675079cf8440e70e9150db5e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: website/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-03-01 13:06:48.000000000 Z
@@ -1401,7 +1437,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: e2e/coverage-handlebars/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/coverage-handlebars/yarn.lock
   detection_source: e2e/coverage-handlebars/package.json
   last_updated_by: Anders Kaseorg
   last_updated_on: 2020-02-19 11:03:09.000000000 Z
@@ -1415,8 +1451,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16070/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: yarn.lock
-  detection_source: packages/pretty-format/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/expect-utils/package.json
   last_updated_by: Matt Wade
   last_updated_on: 2022-05-02 06:34:33.000000000 Z
 - name: isbinaryfile
@@ -1429,7 +1465,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18423/default_d4c8c48d3b66244e10004fbefa66cfaab1e306e5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-04-25 11:02:30.000000000 Z
@@ -1443,7 +1479,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16022/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
@@ -1457,8 +1493,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16848/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-repl/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/jest-cli/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
 - name: jest-junit
@@ -1471,7 +1507,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -1485,7 +1521,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17070/default_32da0e64c9ec90f8f302a76668f802f1f4d08177.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-resolve/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
@@ -1499,8 +1535,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16442/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-runtime/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/jest-config/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
 - name: jest-watch-typeahead
@@ -1513,7 +1549,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16646/default_50c9ed1615a25628505ab53def64d82450ced26b.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
@@ -1527,8 +1563,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: e2e/coverage-transform-instrumented/yarn.lock
-  detection_source: website/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/coverage-transform-instrumented/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-02-22 08:37:44.000000000 Z
 - name: merge-stream
@@ -1541,7 +1577,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16419/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-worker/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-08-23 01:24:45.000000000 Z
@@ -1555,7 +1591,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16699/default_5ea3918e441555ef1fd413f4100fe15fe23b366f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/react-native/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-20 16:26:41.000000000 Z
@@ -1569,8 +1605,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17143/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-transform/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-22 06:56:35.000000000 Z
 - name: mock-fs
@@ -1583,8 +1619,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16607/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-reporters/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-02-15 14:46:30.000000000 Z
 - name: node-notifier
@@ -1597,7 +1633,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16146/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 19:14:12.000000000 Z
@@ -1611,8 +1647,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18388/default_404701144cd8e1becf3aec789202840caee4d78e.png
-  detection_source_url: e2e/coverage-transform-instrumented/yarn.lock
-  detection_source: packages/jest-runner/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/coverage-transform-instrumented/yarn.lock
+  detection_source: package.json
   last_updated_by: Josh Kelley
   last_updated_on: 2022-06-30 11:48:20.000000000 Z
 - name: pkg-dir
@@ -1625,7 +1661,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18021/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-02-09 20:31:21.000000000 Z
@@ -1639,8 +1675,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18252/default_d7af0607656aecc036ca87d563e99619deb7cf84.png
-  detection_source_url: yarn.lock
-  detection_source: packages/test-utils/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/jest-circus/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
 - name: progress
@@ -1653,7 +1689,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16410/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2017-09-05 15:21:19.000000000 Z
@@ -1667,7 +1703,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16093/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2018-10-02 09:15:57.000000000 Z
@@ -1681,7 +1717,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17250/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-cli/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2019-07-15 13:33:43.000000000 Z
@@ -1695,8 +1731,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: e2e/transform/multiple-transformers/yarn.lock
-  detection_source: website/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/transform/multiple-transformers/yarn.lock
+  detection_source: e2e/transform/multiple-transformers/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
 - name: react-is
@@ -1709,7 +1745,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17829/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
-  detection_source_url: e2e/transform/multiple-transformers/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/transform/multiple-transformers/yarn.lock
   detection_source: packages/pretty-format/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
@@ -1723,7 +1759,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: website/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-20 17:58:48.000000000 Z
@@ -1737,7 +1773,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16064/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/react-native/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-20 16:26:41.000000000 Z
@@ -1751,8 +1787,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: e2e/transform/multiple-transformers/yarn.lock
-  detection_source: packages/pretty-format/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/transform/multiple-transformers/yarn.lock
+  detection_source: e2e/transform/multiple-transformers/package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-19 10:48:43.000000000 Z
 - name: read-pkg
@@ -1765,7 +1801,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17758/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-09-07 05:07:24.000000000 Z
@@ -1779,8 +1815,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16128/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
-  detection_source: packages/jest-resolve/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-13 08:20:21.000000000 Z
 - name: rimraf
@@ -1793,8 +1829,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-core/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Tom Mrazauskas
   last_updated_on: 2022-02-17 07:57:34.000000000 Z
 - name: slash
@@ -1807,8 +1843,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16831/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-transform/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2019-08-20 14:14:01.000000000 Z
 - name: source-map
@@ -1821,7 +1857,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16339/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: e2e/coverage-handlebars/package.json
   last_updated_by: Anders Kaseorg
   last_updated_on: 2020-02-19 11:03:09.000000000 Z
@@ -1835,7 +1871,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-runner/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 22:07:00.000000000 Z
@@ -1849,8 +1885,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16331/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-reporters/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Tom Mrazauskas
   last_updated_on: 2022-07-10 08:29:31.000000000 Z
 - name: strip-bom
@@ -1863,7 +1899,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18019/default_ab659b5159df20d1c32f07b936d63628134f5b3d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-runtime/package.json
   last_updated_by: Dmitry Semigradsky
   last_updated_on: 2021-12-31 12:20:37.000000000 Z
@@ -1877,8 +1913,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16973/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-config/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-04-25 11:02:30.000000000 Z
 - name: supports-color
@@ -1891,7 +1927,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17084/default_23002b02644a8cb313a0f53f43df271731022a9e.png
-  detection_source_url: e2e/async-regenerator/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/async-regenerator/yarn.lock
   detection_source: packages/jest-worker/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2021-05-18 07:19:15.000000000 Z
@@ -1905,7 +1941,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17057/default_32da0e64c9ec90f8f302a76668f802f1f4d08177.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Feng Yu
   last_updated_on: 2022-04-12 08:51:58.000000000 Z
@@ -1919,8 +1955,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-config/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-07-17 19:14:12.000000000 Z
 - name: tslib
@@ -1933,7 +1969,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-07-07 08:29:32.000000000 Z
@@ -1947,7 +1983,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16482/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-12-30 20:07:05.000000000 Z
@@ -1961,7 +1997,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: e2e/console-winston/yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/e2e/console-winston/yarn.lock
   detection_source: e2e/console-winston/package.json
   last_updated_by: Alcedo Nathaniel De Guzman Jr
   last_updated_on: 2019-03-02 12:31:36.000000000 Z
@@ -1975,7 +2011,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18295/default_678ce8b19e8cee1dde03f165f62525a2c9d0c034.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: packages/jest-transform/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-02-11 07:30:50.000000000 Z
@@ -1989,8 +2025,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/jest-repl/package.json
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
+  detection_source: packages/jest-cli/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2022-02-10 14:02:25.000000000 Z
 - name: zone.js
@@ -2003,7 +2039,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mollypi/jest/blob/main/yarn.lock
   detection_source: examples/angular/package.json
   last_updated_by: Simen Bekkhus
   last_updated_on: 2020-11-14 13:00:09.000000000 Z
